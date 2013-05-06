@@ -44,9 +44,14 @@ import java.io.*;
 	    j++;
 	    k++;
 	  }
+	  //element in array a is less than in array b, 
+	  //we can skip forward in a (since arrays are
+	  //already sorted)
 	  else if(a[i]<b[j]) {
 	      i++;
 	  }
+	  //same as above, except here we can skip
+	  //forward in array b	
 	  else {
 	    j++;
 	  }
